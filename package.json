@@ -1,0 +1,30 @@
+{
+  "name": "jigsaw-puzzle",
+  "version": "1.0.0",
+  "description": "Course: Becoming a JavaScript Expert Chapter 4: JavaScript Events In Depth / Project Assignment 2: Build a Jigsaw Drag & Drop Puzzle",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianhernandez/becoming-a-javascript-expert__jigsaw-puzzle.git"
+  },
+  "keywords": [
+    "jigsaw",
+    "puzzle"
+  ],
+  "author": "Brian Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianhernandez/becoming-a-javascript-expert__jigsaw-puzzle/issues"
+  },
+  "homepage": "https://github.com/brianhernandez/becoming-a-javascript-expert__jigsaw-puzzle#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
