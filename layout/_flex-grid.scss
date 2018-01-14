@@ -2,6 +2,21 @@
   display: flex;
   margin-bottom: 20px;
 
+  &--spacearound {
+    justify-content: space-around;
+    margin-bottom: .5px;
+  }
+
+  &--extramargin100 {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  &--extramargin60 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   &__col {
     flex: 1;
 

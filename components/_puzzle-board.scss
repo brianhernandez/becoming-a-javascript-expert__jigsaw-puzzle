@@ -4,4 +4,34 @@
   min-height: 589px;
   min-width: 879px;
   display: inline-block;
+
+  .puzzleBoard__puzzleslot {
+    border: 1px solid red;
+    min-height: 96px;
+    min-width: 109px;
+    flex: 0;
+
+    &--firstrow {
+      margin-top: 50px;
+
+    }
+
+    &--secondrow,
+    &--thirdrow,
+    &--fourthrow,
+    &--fifthrow,
+    &--sixthrow,
+    &--seventhrow,
+    &--eigthrow,
+    &--ninthrow {
+      margin-top: -50px;
+    }
+
+    // &--thirdrow {
+    //   margin-top: -50px;
+    // }
+    // &--fourthrow {
+    //   margin-top: -50px;
+    // }
+  }
 }
