@@ -13,7 +13,6 @@
 
     &--firstrow {
       margin-top: 50px;
-
     }
 
     &--secondrow,
@@ -26,12 +25,11 @@
     &--ninthrow {
       margin-top: -50px;
     }
-
-    // &--thirdrow {
-    //   margin-top: -50px;
-    // }
-    // &--fourthrow {
-    //   margin-top: -50px;
-    // }
   }
+}
+
+.puzzlePieces {
+  border: 2px solid black;
+  padding: 8px;
+  flex: 3;
 }
