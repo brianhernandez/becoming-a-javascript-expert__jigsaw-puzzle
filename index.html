@@ -13,8 +13,18 @@
   </div>
   <div class="flex-grid">
     <div class="flex-grid__col"></div>
-    <div class="flex-grid__col">
-
+    <div class="flex-grid__col" id="levelButtons">
+      <button class="button button--block" id="easyButton">Easy</button>
+      <button class="button button--block" id="mediumButton">Medium</button>
+      <button class="button button--block" id="hardButton">Hard</button>
+    </div>
+    <div class="flex-grid__col flex-grid__col--alignselfcenter" id="gameButtons">
+      <button class="button button--inline" id="startButton">Start Puzzle</button>
+      <button class="button button--inline" id="resetButton">Reset Puzzle</button>
+      <button class="button button--inline" id="hintButton">See Hint</button>
+    </div>
+    <div class="flex-grid__col flex-grid__col--alignselfcenter">
+      <span id="timeIndicator">7:00</span>
     </div>
     <div class="flex-grid__col"></div>
   </div>
@@ -22,7 +32,7 @@
     <div class="flex-grid__col"></div>
     <div class="flex-grid__col puzzleBoard"></div>
     <div class="flex-grid__col"></div>
-    <script src=""></script>
+    <script src="js/app.js"></script>
   </div>
 </body>
 </html>

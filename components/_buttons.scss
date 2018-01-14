@@ -1,0 +1,16 @@
+.button {
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &--inline {
+    display: inline-block;
+  }
+
+  &--block {
+    display: block;
+  }
+
+}

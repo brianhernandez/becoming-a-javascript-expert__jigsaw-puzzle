@@ -1,8 +1,13 @@
 .flex-grid {
   display: flex;
+  margin-bottom: 20px;
 
   &__col {
     flex: 1;
+
+    &--alignselfcenter {
+      align-self: center;
+    }
   }
 }
 

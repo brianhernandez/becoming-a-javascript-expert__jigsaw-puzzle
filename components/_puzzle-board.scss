@@ -1,8 +1,7 @@
 .puzzleBoard {
-  background: url("img/puzzle/_Puzzle_solved.png") no-repeat top;
-  border: 2px solid red;
-  // padding: 8px;
-  min-height: 579px;
+  background: url("img/puzzle/_Puzzle_solved.png") no-repeat center;
+  border: 2px solid black;
+  min-height: 589px;
   min-width: 879px;
   display: inline-block;
 }
