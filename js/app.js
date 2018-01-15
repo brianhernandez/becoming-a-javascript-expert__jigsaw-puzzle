@@ -51,7 +51,7 @@ window.onload = function () {
 
     toggleLevelButtons(true);
 
-    puzzleBoard.style.background = "url('img/puzzle/_Puzzle_bg_unsolved.png') no-repeat center";
+    puzzleBoard.style.background = "url('img/puzzle/Puzzle_bg_unsolved.png') no-repeat center";
     flexgridContainer.classList.add('flex-grid');
     flexgridContainer.id = "puzzlePiecesGrid";
     firstSideDiv.classList.add('flex-grid__col');
@@ -75,7 +75,7 @@ window.onload = function () {
 
   function resetPuzzle() {
     var puzzlePiecesContainerDiv = document.getElementById('puzzlePiecesGrid');
-    puzzleBoard.style.background = "url('img/puzzle/_Puzzle_solved.png') no-repeat center";
+    puzzleBoard.style.background = "url('img/puzzle/Puzzle_solved.png') no-repeat center";
 
     toggleLevelButtons(false);
 
